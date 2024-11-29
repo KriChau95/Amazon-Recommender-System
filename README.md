@@ -68,11 +68,11 @@ Compare this approach with other approaches:
 
 ## Description of Files
 
-`itemFilter.py` : Implements the Model described in Steps 1-5 - Item-Item Collaborative Filtering
-`itemFilter_baseline.py` : Builds off of `itemFilter.py` and provides baseline estimates for items with null predictions due to cold start problem
-`contentCF.py` : Implements content based collaborative filtering
-`SVDFilter.py` : Implements SVD-based filtering
-`recommendations.txt` : recommendations of top 10 items for each user derived from `itemFilter.py`
+* `itemFilter.py` : Implements the Model described in Steps 1-5 - Item-Item Collaborative Filtering
+* `itemFilter_baseline.py` : Builds off of `itemFilter.py` and provides baseline estimates for items with null predictions due to cold start problem
+* `contentCF.py` : Implements content based collaborative filtering
+* `SVDFilter.py` : Implements SVD-based filtering
+* `recommendations.txt` : recommendations of top 10 items for each user derived from `itemFilter.py`
 
 
 
