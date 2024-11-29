@@ -66,6 +66,14 @@ Compare this approach with other approaches:
 2. Content based filtering, incorporating TF-IDF.
 3. SVD - Singular Value Decomposition to construct matrices that encapsulates the patterns of the data, and tunes the values to fit the dataset.
 
+## Description of Files
+
+`itemFilter.py` : Implements the Model described in Steps 1-5 - Item-Item Collaborative Filtering
+`itemFilter_baseline.py` : Builds off of `itemFilter.py` and provides baseline estimates for items with null predictions due to cold start problem
+`contentCF.py` : Implements content based collaborative filtering
+`SVDFilter.py` : Implements SVD-based filtering
+`recommendations.txt` : recommendations of top 10 items for each user derived from `itemFilter.py`
+
 
 
 
